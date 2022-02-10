@@ -1,6 +1,16 @@
 from tkinter import *
 from functools import partial
 
+#########################################################################
+#                                                                       #
+#              			Name Writer - Hanyi Liu				            #
+#              			last revised: 2/10/22                           #
+#                                                                       #
+#   Returns your name displayed in a "LASTNAME, FIRSTNAME" format.	    #
+#########################################################################
+
+
+
 ENTRY_SIZE = (100, 25)
 
 
