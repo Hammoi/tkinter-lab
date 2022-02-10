@@ -14,6 +14,10 @@ from functools import partial
 ENTRY_SIZE = (100, 25)
 
 
+#ADD APPLICATION TITLE
+root = Tk()
+root.title("Name Writer")
+
 #CREATE INPUT LABELS
 
 firstLabel = Label(text="First Name:")
@@ -61,6 +65,7 @@ def write():
 writeName = Button(command=partial(write))
 writeName.config(text="Write Name")
 writeName.grid(row=3, column=0, padx=5, pady=5, ipadx=10, ipady=10, columnspan=2)
+
 
 
 mainloop()
